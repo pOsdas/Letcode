@@ -7,7 +7,7 @@ class TreeNode:
 
 class Solution:
     def buildTree(self, preorder, inorder):
-        def build(preorders, inorders):
+        def build(preorder, inorder):
             if not preorder or not inorder:
                 return None
 
